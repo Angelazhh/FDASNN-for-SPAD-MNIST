@@ -1,0 +1,27 @@
+SPAD-MNIST Dataset License
+
+SPAD-MNIST is a derivative dataset generated from the MNIST dataset by
+applying a single-photon avalanche diode (SPAD) imaging process.
+
+The dataset is distributed under the Creative Commons
+Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0).
+
+You are free to share and adapt this dataset, provided that appropriate
+credit is given and derivative works are distributed under the same or
+a compatible license.
+
+License:
+https://creativecommons.org/licenses/by-sa/3.0/
+
+This license applies to the SPAD-MNIST dataset. Any accompanying source
+code is licensed separately, as specified in the corresponding source
+files or software license.
+
+Original MNIST dataset:
+Y. LeCun, C. Cortes, and C. J. C. Burges,
+“The MNIST Database of Handwritten Digits.”
+http://yann.lecun.com/exdb/mnist/
+
+Copyright for the original MNIST data remains with its original
+creators. Copyright for the SPAD-based transformations and associated
+documentation remains with the SPAD-MNIST authors.
