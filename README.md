@@ -155,4 +155,11 @@ average firing rates.
   (`dim=1`). Adjust the configured device IDs if fewer than four GPUs are
   available.
 - CPU execution is supported for basic testing but is significantly slower.
+- 
+## License
 
+The source code in this repository is licensed under the MIT License.
+
+The SPAD-MNIST dataset is licensed separately under the Creative Commons
+Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0). See
+`LICENSE-DATA` for details.
