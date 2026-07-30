@@ -70,7 +70,7 @@ installation command from the official PyTorch installation guide.
 
 ```text
 FDASNN/
-├── MFM_FDASNN.py           # FDASNN training with multi-focus mapping
+├── MFM_FDASNN.py           # FDASNN training with multimodal fusion mechanism (MFM) mapping
 ├── Test.py                 # Accuracy and class-wise metric evaluation
 ├── QFDASNN.py              # Post-training quantization and integer inference
 ├── Aspiking_rate_MNIST.py  # Layer-wise firing-rate analysis
