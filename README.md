@@ -157,8 +157,8 @@ average firing rates.
 python APSHCM_ToF.py
 ```
 
-By default, the script evaluates 100 samples at `2.0`, `4.5`, and `7.0` metres
-and writes `results/tofresult.csv`. Set `FDASNN_DATA_ROOT` to change the dataset
+By default, the script evaluates 100 samples at from `1.0` to `8.0` metres
+and writes `results/ToF_result.csv`. Set `FDASNN_DATA_ROOT` to change the dataset
 directory and `FDASNN_TOF_OUTPUT` to change the output directory:
 
 ```bash
