@@ -3,14 +3,12 @@
 import csv
 import os
 import time
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from spikingjelly.activation_based import functional
 from torchvision.transforms import functional as TF
 from tqdm import tqdm
-
 import parameter
 from dataloader import AugMNIST, center_crop_if_oversized
 from module import set_seed
