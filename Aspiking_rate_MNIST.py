@@ -1,11 +1,9 @@
 """Measure input and layer-wise firing rates for a trained FDASNN model."""
 
 import os
-
 import torch
 import torch.nn as nn
 from spikingjelly.activation_based import functional, monitor, neuron
-
 import parameter
 from dataloader import AugMNIST
 from module import set_seed
