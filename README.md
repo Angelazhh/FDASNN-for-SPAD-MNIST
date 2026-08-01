@@ -1,10 +1,6 @@
 # FDASNN for SPAD-MNIST
 
-This repository contains the training, evaluation, firing-rate analysis, and
-post-training quantization code for the Feature-Decoupled Attention Spiking
-Neural Network (FDASNN). The input images are converted into SPAD event
-sequences with a distance-dependent optical model before being processed by
-the multi-step spiking network.
+This repository provides the code for SPAD data simulation, the All-Pixel Shared Histogram Cumulative Method (APSHCM), the Multimodal Fusion Mechanism (MFM), the Feature-Driven Additive Spiking Neural Network (FDASNN), and post-training quantization (SPTQ). It also includes scripts for FDASNN training, evaluation, and firing-rate analysis. Input images are first converted into SPAD event sequences using a distance-dependent optical model and are then processed by the MFM and the multi-step spiking neural network.
 
 ## Requirements
 
