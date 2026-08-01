@@ -1,7 +1,6 @@
 """Dataset builders and distance-aware MNIST transformations."""
 
 import os
-
 import numpy as np
 import scipy.io as sio
 import torch
@@ -12,7 +11,6 @@ from PIL import Image
 from sklearn.preprocessing import LabelEncoder
 from torch.utils.data import Dataset
 from torchvision import transforms
-
 import parameter
 from parameter import spiking
 
